@@ -1,0 +1,2 @@
+0 * * * * python3 /fetch.py > /proc/1/fd/1 2>/proc/1/fd/2
+# this will redirect the cron output to the docker stderr and stdout
